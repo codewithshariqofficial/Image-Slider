@@ -1,6 +1,6 @@
-# Image Slider (Carousel)
+# Advanced Image Carousel
 
-A simple and responsive image carousel built with HTML, CSS, and JavaScript.
+A simple and responsive image carousel (slider) built with HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -13,24 +13,35 @@ A simple and responsive image carousel built with HTML, CSS, and JavaScript.
 - Keyboard navigation (Arrow Left / Right)
 - Responsive design for mobile and small screens
 
-## Files
+## Tech Stack
 
-- `index.html` - Carousel markup and slides
-- `style.css` - Styling and responsive layout
-- `script.js` - Carousel logic (navigation, autoplay, swipe, keyboard)
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-## How to Use
+## Project Structure
 
-1. Clone or download this project.
-2. Open `index.html` in any modern web browser.
-3. No build tools or dependencies required.
+```
+Image-Slider/
+├── index.html   # Carousel markup and slides
+├── style.css    # Styling and responsive layout
+└── script.js    # Carousel logic (navigation, autoplay, swipe, keyboard)
+```
 
-## Customization
+## Getting Started
 
-- Edit the `<img>` tags in `index.html` to change the slides/images.
-- Change `autoplayInterval` in `script.js` to adjust auto-play speed (default: 5000ms).
-- Tweak CSS variables in `style.css` (`:root`) to change colors, height, and transition speed.
+1. Clone or download this repository.
+2. Open `index.html` in any modern browser.
+3. Use the arrows, dots, or keyboard to navigate slides.
+
+## Live Demo
+
+https://image-slider-nu-seven.vercel.app/
 
 ## License
 
-Free to use for learning and personal projects.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Code With Shariq Official** - [GitHub](https://github.com/codewithshariqofficial)
